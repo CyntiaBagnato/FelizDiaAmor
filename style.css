@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+    }
+
+.header{
+    background-image: url(https://i.pinimg.com/236x/84/19/03/841903129124a8af867b1c3c36dc72af.jpg);
+    min-width: 50vh;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    height: 150px;
+}
+
+.header h1{
+ font-size: 50px;
+ font-family: 'Handlee', cursive; 
+}
+.header h2{
+    font-size: 40px;
+    font-family: 'Handlee', cursive;
+}
+
+.main{
+min-height: 100vh;
+background-image: url(https://i.pinimg.com/236x/a2/ec/26/a2ec261e55c36a2f07b1d817fac76839.jpg) ;
+}
+
+.main section{
+    display: flex;
+    flex-direction:row-reverse;
+   height: 430px;
+   margin-left: 40px;
+}
+
+.section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+section img:hover{
+    cursor: cell;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.footer{
+    background-image: url(https://i.pinimg.com/236x/af/52/db/af52db58cff6c8db0360331fd228fbfb.jpg);
+    height: 100px;
+    display: flex;
+}
+
+.footer ul {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+    align-items: center;
+        width: 40%;
+        font-family: 'Handlee', cursive; }
+        .footer li{
+            color: rgb(8, 4, 9);
+        font-size: xx-large;
+        font-style: oblique;
+        background-color: #e76b8a77;
+        border-radius: 15px;
+        font-weight: bold;
+        }
+        .footer ul :hover {
+          background-color: rgba(211, 107, 199, 0.501);
+          
+          transition: 1s; }
